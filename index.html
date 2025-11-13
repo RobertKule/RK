@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robert KULE</title>
+    <link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
+    <header class="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
     
+    <!-- Logo + Profil -->
+    <div class="flex items-center space-x-3">
+      <img src="assets/images/logo.png" alt="Robert KULE" class="w-10 h-10 rounded-xl object-cover" />
+      <span class="text-xl font-bold text-pink-600">RKfolio</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
+      <a href="#home" class="hover:text-pink-600 transition">Home</a>
+      <a href="#features" class="hover:text-pink-600 transition">Features</a>
+      <a href="#portfolio" class="hover:text-pink-600 transition">Portfolio</a>
+      <a href="#resume" class="hover:text-pink-600 transition">Resume</a>
+      <a href="#testimonials" class="hover:text-pink-600 transition">Testimonials</a>
+      <a href="#clients" class="hover:text-pink-600 transition">Clients</a>
+      <a href="#pricing" class="hover:text-pink-600 transition">Pricing</a>
+      <a href="#blog" class="hover:text-pink-600 transition">Blog</a>
+      <a href="#contact" class="hover:text-pink-600 transition">Contact</a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="flex items-center space-x-4">
+      <!-- Panier -->
+      <div class="relative">
+        <svg class="w-6 h-6 text-gray-600 hover:text-pink-600 cursor-pointer" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M3 3h2l.4 2M7 13h10l4-8H5.4" />
+          <circle cx="9" cy="21" r="1" />
+          <circle cx="20" cy="21" r="1" />
+        </svg>
+        <span class="absolute top-0 right-0 inline-block w-2 h-2 bg-red-500 rounded-full"></span>
+      </div>
+
+      <!-- Bouton -->
+      <a href="#contact" class=" border border-2 border-pink-600  text-black px-4 py-2 rounded hover:bg-pink-700 text-sm font-semibold">Buy Now</a>
+    </div>
+  </div>
+</header>
+
+
 </body>
 </html>
