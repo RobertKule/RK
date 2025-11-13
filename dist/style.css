@@ -889,6 +889,10 @@ video {
   height: 100vh;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .max-h-none {
   max-height: none;
 }
@@ -1426,6 +1430,10 @@ video {
 
 .justify-self-stretch {
   justify-self: stretch;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .scroll-auto {
@@ -2408,6 +2416,10 @@ video {
 .hover\:text-pink-600:hover {
   --tw-text-opacity: 1;
   color: rgb(219 39 119 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:shadow-lg:hover {
